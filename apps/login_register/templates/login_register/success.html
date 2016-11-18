@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+<head>
+    <meta charset="utf-8" />
+    <title>Register</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        p#head{
+            font-size: 25pt;
+            font-weight: bold;
+        }
+        p#green{
+            font-size: 15pt;
+            color: green;
+        }
+        p{
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p id='head'>
+        Success! Welcome, {{user.first_name}}!
+    </p>
+    <p id='green'>
+        Successfully registered (or logged in)
+    </p>
+    <p>
+        <a href="/">Go Back</a>
+    </p>
+</body>
+</html>

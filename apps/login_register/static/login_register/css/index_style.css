@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 500px;
+    margin: 0 auto;
+}
+    #register{
+        position: relative;
+        margin-bottom: 30px;
+    }
+    h1{
+        font-weight: bolder;
+        font-size: 30pt;
+    }
+    #login{
+        position: relative;
+    }
+
+    label#login{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    label{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    input{
+        width: 150px;
+        position: absolute;
+        left: 30%;
+    }
+    .button{
+        width: 100px;
+        background-color: blue;
+        color: white;
+        margin-left: 55px;
+    }
+    .error{
+        color: red;
+        font-size: 13pt;
+    }
